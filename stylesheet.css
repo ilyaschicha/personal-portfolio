@@ -45,3 +45,8 @@ body {
   height: 25px;
   padding: 0;
 }
+@media (max-width: 991px) {
+  #main-landing {
+    margin: 60px;
+  }
+}
