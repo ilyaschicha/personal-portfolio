@@ -22,3 +22,12 @@ body {
 
 #font {
   font-family: 'Great Vibes', cursive;
+}
+#landing {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
