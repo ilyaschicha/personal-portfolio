@@ -34,3 +34,14 @@ body {
 }
 #main-landing{
   margin-top: 140px;
+}
+#social-media a {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
+#social-media a img {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
