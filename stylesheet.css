@@ -34,20 +34,22 @@ body {
 }
 #main-landing{
   margin-top: 140px;
+  border-left: 5px solid white;
 }
 #social-media a {
-  width: 25px;
-  height: 25px;
+  width: 32px;
+  height: 32px;
   padding: 0;
 }
 #social-media a img {
-  width: 25px;
-  height: 25px;
+  width: 32px;
+  height: 32px;
   padding: 0;
 }
 @media (max-width: 991px) {
   #main-landing {
     margin-top: 60px;
     width: 100%;
+    border: none;
   }
 }
