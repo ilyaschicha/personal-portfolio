@@ -47,6 +47,7 @@ body {
 }
 @media (max-width: 991px) {
   #main-landing {
-    margin: 60px;
+    margin-top: 60px;
+    width: 100%;
   }
 }
