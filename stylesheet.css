@@ -46,6 +46,9 @@ body {
   height: 32px;
   padding: 0;
 }
+#social-media a img:hover {
+  opacity: .5;
+}
 @media (max-width: 991px) {
   #main-landing {
     margin-top: 60px;
