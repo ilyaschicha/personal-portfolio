@@ -68,6 +68,37 @@ body {
     margin-top: 0px;
     width: 100%;
     border: none;
+@media (min-width: 2200px) {
+  .container {
+    max-width: 2000px;
+  }
+}
+@media (min-width: 2400px) {
+  .container {
+    max-width: 2100px;
+  }
+}
+@media (min-width: 2600px) {
+  .container {
+    max-width: 2300px;
+  }
+}
+@media (min-width: 2800px) {
+  .container {
+    max-width: 2500px;
+  }
+}
+@media (min-width: 3000px) {
+  .container {
+    max-width: 2800px;
+  }
+}
+@media (min-width: 3200px) {
+  .container {
+    max-width: 3000px;
+  }
+}
+
 /* 4K/UHD Resolution */
 @media (min-width: 3800px) {
   /* landing Section 4K */
