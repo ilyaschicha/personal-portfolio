@@ -8,13 +8,24 @@ body {
   padding-left: .625rem;
   border-left: .312rem solid #FFF;
 }
+/* Navigation bar styles */
+nav {
+  transition: background-color .3s;
+}
+nav.scrolled {
+	box-shadow: rgba(0, 0, 0, 1) 0px 0px 20px 0px;
+  background-color: #FFF;
+}
+#font {
+  font-family: 'Great Vibes', cursive;
+}
 .btn-nav {
   position: relative;
 }
 .btn-nav::after {
   content: '';
   width: 0%;
-  background: white;
+  background: #FFF;
   height: 2px;
   position: absolute;
   bottom: 0%;
