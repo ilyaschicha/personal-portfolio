@@ -4,6 +4,10 @@ body {
 .body-overflow {
   overflow: hidden;
 }
+.bl {
+  padding-left: .625rem;
+  border-left: .312rem solid #FFF;
+}
 .btn-nav {
   position: relative;
 }
