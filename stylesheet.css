@@ -68,5 +68,20 @@ body {
     margin-top: 0px;
     width: 100%;
     border: none;
+/* for iPhone 5/SE or smaller*/
+@media (max-width: 350px) {
+
+  .display-4{
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .line {
+    width: 3.125rem;
+  }
+  #personal-img {
+    width: 6.25rem;
+    height: 4.687rem;
   }
 }
