@@ -68,6 +68,106 @@ body {
     margin-top: 0px;
     width: 100%;
     border: none;
+/* 2K/FHD Resolution */
+@media (min-width: 1900px) {
+  /* landing Section 2K */
+  .container {
+    max-width: 1740px;
+  }
+  .navbar {
+    padding: 2.187rem !important;
+  }
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+  .nav-link {
+    font-size: 2.5rem;
+  }
+  .bl {
+    padding-left: 1.562rem;
+    border-left: .625rem solid #fff;
+  }
+  .display-4 {
+    font-size: 8rem;
+  }
+  h4 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  .btn {
+    border: .25rem solid transparent;
+    padding: .5rem 1rem;
+    font-size: 3rem;
+    margin-top: 1.25rem !important;
+  }
+  .btn-outline-light {
+    border-color: #f8f9fa;
+  }
+  #social-media a {
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+  }
+  #social-media a img {
+    width: 4rem;
+    height: 4rem;
+    padding: 0;
+  }
+  .mb-1 {
+    margin-bottom:  !important;
+    margin-top: .5rem !important;
+  }
+  .mouse{
+    width: 3.125rem;
+    height: 5.625rem;
+    border: .25rem solid #fff;
+    border-radius: 1.875rem;
+    margin-bottom: 1.562rem;
+  }
+  .mouse::before{
+    content: "";
+    width:.75rem;
+    height: .75rem;
+    top: .9375rem;
+    animation: mouse 2s infinite;
+  }
+  @keyframes mouse {
+    from{
+      opacity: 1;
+      top: .9375rem;
+    }
+    to{
+      opacity: 0;
+      top: 3.125rem;
+    }
+  }
+  /* About Section 2K */
+  h1 {
+    font-size: 4rem;
+  }
+  .h2 {
+    font-size: 3.5rem;
+  }
+  .myb-auto {
+    margin: auto 0;
+  }
+  #personal-img {
+    width: 18.75rem;
+    height: 25rem;
+    border: .625rem solid #FFF;
+    transform: rotate(3deg);
+  }
+  .line {
+      width: 12.5rem;
+      border-width: .375rem;
+      background-color: #FFF;
+      height: .625rem;
+  }
+}
+
+
 @media (min-width: 2200px) {
   .container {
     max-width: 2000px;
