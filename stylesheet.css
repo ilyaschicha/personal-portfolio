@@ -68,6 +68,107 @@ body {
     margin-top: 0px;
     width: 100%;
     border: none;
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+  .navbar {
+    padding: 1.0625rem !important;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .bl {
+    padding-left: .75rem;
+    border-left: 5px solid #fff;
+  }
+  .display-4 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .btn {
+    border: 2px solid transparent;
+    padding: .25rem .5rem;
+    font-size: 1.5rem;
+    margin-top: .625rem !important;
+  }
+  .btn-outline-light {
+    border-color: #f8f9fa;
+  }
+  #social-media a {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+  }
+  #social-media a img {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+  }
+  .mb-1 {
+    margin-bottom:  !important;
+    margin-top: .25rem !important;
+  }
+  .mouse{
+    width: 1.562rem;
+    height: 2.812rem;
+    border: 2px solid #fff;
+    border-radius: .9375rem;
+    margin-bottom: .7812rem;
+  }
+  .mouse::before{
+    content: "";
+    width: .375rem;
+    height: .375rem;
+    top: .9375rem;
+    animation: mouse 2s infinite;
+  }
+  @keyframes mouse {
+    from{
+      opacity: 1;
+      top: 7.5px;
+    }
+    to{
+      opacity: 0;
+      top: 1.562rem;
+    }
+  }
+  /* About Section 4K */
+  h1 {
+    font-size: 2rem;
+  }
+  .h2 {
+    font-size: 1.75rem;
+  }
+  .myb-auto {
+    margin: auto 0;
+  }
+  #personal-img {
+    width: 4.687rem;
+    height: 12.5rem;
+    border: 5px solid #FFF;
+    transform: rotate(3deg);
+  }
+  .line {
+      width: 6.25rem;
+      border-width: .375rem;
+      background-color: #FFF;
+      height: 5px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
 /* 2K/FHD Resolution */
 @media (min-width: 1900px) {
   /* landing Section 2K */
