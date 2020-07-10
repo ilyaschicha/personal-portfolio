@@ -68,6 +68,29 @@ body {
     margin-top: 0px;
     width: 100%;
     border: none;
+/* iPhone (6/7/8)Plus iPhone X Google Pixle 2/2xl*/
+@media (max-width: 415px) {
+  .navba-brand {
+    margin-left: .5rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  p{
+    font-size: 1.6rem;
+  }
+  .x {
+    margin-top: 5rem;
+  }
+  .container {
+    max-width: 400px;
+  }
+}
+@media (max-height: 670px) {
+  .x {
+    margin-top: 0;
+  }
+}
 @media (min-width: 1400px) {
   .container {
     max-width: 1200px;
