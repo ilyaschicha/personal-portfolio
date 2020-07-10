@@ -30,6 +30,15 @@ $(window).scroll(function(e){
   }
 
 });
+$(window).width(function(e){
+  if ($(this).width() < 991) {
+    $('nav').addClass('scrolled');
+    $('.navbar-toggler-icon').addClass('dark-toggler-icon');
+    $(".nav-link").css("color", "#000");
+    $(".navbar-brand").css("color", "#000");
+    $(".btn-nav").append('<style>.btn-nav:after{background: #000;}</style>');
+  }
+});
 // this function use to change the icon in the landing section
 $(".img-social").hover(function(){
     $(this).attr("src", function(index, attr){
