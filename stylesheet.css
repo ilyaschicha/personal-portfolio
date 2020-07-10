@@ -68,6 +68,104 @@ body {
     margin-top: 0px;
     width: 100%;
     border: none;
+/* 4K/UHD Resolution */
+@media (min-width: 3800px) {
+  /* landing Section 4K */
+  .container {
+    max-width: 3540px;
+  }
+  .navbar {
+    padding: 4.687rem !important;
+  }
+  .navbar-brand {
+    font-size: 5rem;
+  }
+  .nav-link {
+    font-size: 5rem;
+  }
+  .bl {
+    padding-left: 3.125rem;
+    border-left: 1.25rem solid #fff;
+  }
+  .display-4 {
+    font-size: 16rem;
+  }
+  h4 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 8rem;
+  }
+  .btn {
+    border: .5rem solid transparent;
+    padding: 1rem 2rem;
+    font-size: 6rem;
+    margin-top: 2.5rem !important;
+  }
+  .btn-outline-light {
+    border-color: #f8f9fa;
+  }
+  #social-media a {
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+  }
+  #social-media a img {
+    width: 8rem;
+    height: 8rem;
+    padding: 0;
+  }
+  .mb-1 {
+    margin-bottom:  !important;
+    margin-top: 1rem !important;
+  }
+  .mouse{
+    width: 6.25rem;
+    height: 11.25rem;
+    border: .5rem solid #fff;
+    border-radius: 3.75rem;
+    margin-bottom: 3.125rem;
+  }
+  .mouse::before{
+    content: "";
+    width:1.5rem;
+    height: 1.5rem;
+    top: 1.875rem;
+    animation: mouse 2s infinite;
+  }
+  @keyframes mouse {
+    from{
+      opacity: 1;
+      top: 1.875rem;
+    }
+    to{
+      opacity: 0;
+      top: 6.25rem;
+    }
+  }
+  /* About Section 4K */
+  h1 {
+    font-size: 8rem;
+  }
+  .h2 {
+    font-size: 7rem;
+  }
+  .myb-auto {
+    margin: auto 0;
+  }
+  #personal-img {
+    width: 37.5rem;
+    height: 50rem;
+    border: 1.25rem solid #FFF;
+    transform: rotate(3deg);
+  }
+  .line {
+    width: 25rem;
+    border-width: .375rem;
+    background-color: #FFF;
+    height: 1.25rem;
+  }
+}
 /* for iPhone 5/SE or smaller*/
 @media (max-width: 350px) {
 
