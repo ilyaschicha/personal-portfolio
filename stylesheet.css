@@ -149,8 +149,21 @@ nav.scrolled {
 
 
 @media (max-width: 991px) {
+  .navbar-collapse {
+    transition: height .10s !important;
+    height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a.nav-link {
+    font-size: 3rem;
+  }
+  .btn-nav::after {
+    height: .25rem;
+  }
   #main-landing {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     width: 100%;
     border: none;
   }
@@ -158,12 +171,23 @@ nav.scrolled {
     border: none;
     padding-left: 0;
   }
-}
-@media (max-height: 300px) {
-  #main-landing {
-    margin-top: 0px;
-    width: 100%;
+  .line {
+    width: 4.687rem;
+  }
+  #personal-img {
+    width: 4.687rem;
+    height: 12.5rem;
     border: none;
+    margin-bottom: 1.25rem;
+  }
+  #about {
+    background-color: #000;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+
+}
 /* iPhone (6/7/8)Plus iPhone X Google Pixle 2/2xl*/
 @media (max-width: 415px) {
   .navba-brand {
