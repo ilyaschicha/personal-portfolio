@@ -8,3 +8,8 @@ $(".img-social").hover(function(){
         return attr.replace("-active.png", ".png");
     });
 });
+/* when you click the hamberger icon in the naveigation (mobile version) bar
+this function make the back of the navigation bar hidden  */
+$(".navbar-toggler").on('click', function(){
+    $("html, body").toggleClass("body-overflow");
+});
